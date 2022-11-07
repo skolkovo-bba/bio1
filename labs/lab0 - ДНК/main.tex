@@ -1,0 +1,58 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english, bulgarian, russian]{babel}
+
+\usepackage{chemmacros}
+
+\usepackage[version=4]{mhchem}
+\mhchemoptions{layout=stacked}
+\chemsetup{formula = mhchem}
+\chemsetup{modules=all}
+
+\usepackage{chemscheme}
+\renewcommand{\schemename}{Схема}
+
+\usepackage{chemnum}
+\setchemnum{format=\bfseries}
+
+\usepackage{graphicx}%Вставка картинок правильная
+\usepackage{float}%"Плавающие" картинки
+\usepackage{wrapfig}%Обтекание фигур (таблиц, картинок и прочего)
+\pagestyle{empty}
+
+ % Цвета для гиперссылок
+\definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
+\definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
+
+
+\begin{document}
+
+\begin{center}
+	\LARGE{Лабораторная работа №0}\\[0.2cm]
+	\large{Воробьев Игорь Дмитриевич}
+	\large{19 октября 2022}
+\end{center}
+
+\section{Выделение ДНК из банана}
+\begin{enumerate}
+	\item Гомогенизируем банан вместе с буферным раствором в ступке.
+	\item Переносим часть гомогената в пробирку.
+	\item Добавлем раствор "Fairy".
+	\item Фильтруем через носок.
+	\item К фильтрату добавляем холодный изопропанол.
+\end{enumerate}
+\textbf{Результат:} наблюдаем на поверхности раствора длинные молекулы ДНК.
+
+\section{Измерение чистоты полученных молекул ДНК}
+\begin{enumerate}
+	\item Сушим всплывшие в прошлом опыте молекулы.
+	\item Добавлем \ce{H2O} в пробирку к ДНК.
+	\item Переливаем супернатант в кювету для спектрофотометра.
+	\item Записываем значение прибора на частоте $260$ нм: 0.854
+	
+	\item Записываем значение прибора на частоте $280$ нм: 0.690
+	
+\end{enumerate}
+\textbf{Результат:} С помощью онлайн-калькулятора (https://www.omnicalculator.com/biology/dna-concentration), подставив значения из спектрофотометра получаем.
+
+\end{document}

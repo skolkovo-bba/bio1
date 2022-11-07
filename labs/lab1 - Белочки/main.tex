@@ -2,13 +2,28 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english, bulgarian, russian]{babel}
 
-\title{Лабораторная работа 1}
-\author{Воробьев Игорь}
-\date{26 октября 2022}
+\usepackage{chemmacros}
+
+\usepackage[version=4]{mhchem}
+\mhchemoptions{layout=stacked}
+\chemsetup{formula = mhchem}
+\chemsetup{modules=all}
+
+\usepackage{chemscheme}
+\renewcommand{\schemename}{Схема}
+
+\usepackage{chemnum}
+\setchemnum{format=\bfseries}
+
+\pagestyle{empty}
 
 \begin{document}
 
-\maketitle
+\begin{center}
+	\LARGE{Лабораторная работа №1}\\[0.2cm]
+	\large{Воробьев Игорь Дмитриевич}
+	\large{26 октября 2022}
+\end{center}
 
 \section{Реакция Майяра}
 \begin{enumerate}
@@ -20,18 +35,18 @@
 \section{Биуретовая реакция (белок)}
 \begin{enumerate}
 	\item Наливаем в пробирку $1$ мл белкового раствора. 
-	\item Наливаем в пробирку $1$ мл NaOH.
+	\item Наливаем в пробирку $1$ мл \ce{NaOH}.
 	\item Нагреем пробирку на спиртовке.
-	\item Добавляем $2$ капли Cu(SO)4.
+	\item Добавляем $2$ капли \ce{Cu(SO)4}.
 \end{enumerate}
 \textbf{Результат:} наблюдаем изменение окраски раствора с прозрачного до бурого.
 
 \section{Биуретовая реакция (меламиновая губка)}
 \begin{enumerate}
 	\item Кладем в пробирку маленький кусочек меламиновой губки. 
-	\item Наливаем в пробирку $1$ мл NaOH.
+	\item Наливаем в пробирку $1$ мл \ce{NaOH}.
 	\item Нагреем пробирку на спиртовке.
-	\item Добавляем $4$ капли $Cu(SO)4$.
+	\item Добавляем $4$ капли \ce{Cu(SO)4}.
 \end{enumerate}
 \textbf{Результат:} наблюдаем изменение окраски раствора с прозрачного до бледно-голубого. 
 
