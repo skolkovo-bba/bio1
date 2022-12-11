@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1668588115 "/Users/igor/Desktop/biology/labs/lab2 - Липиды/main.tex" "main.pdf" "main" 1668588115
-  "/Users/igor/Desktop/biology/labs/lab2 - Липиды/main.tex" 1668588114 1878 1b69a0f52367be42b63fd5ea1d7af361 ""
+["pdflatex"] 1670759759 "/Users/igor/Desktop/biology/labs/lab2 - Липиды/main.tex" "main.pdf" "main" 1670759759
+  "/Users/igor/Desktop/biology/labs/lab2 - Липиды/main.tex" 1670759752 2895 053e43b1cccf7b7d0422d82399429ea0 ""
   "/Users/igor/Library/texlive/2022/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1666817172 3308 eee81981029f67083258db36df06e523 ""
   "/Users/igor/Library/texlive/2022/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1666817163 3312 d199be9bd555944e2403193d58a0256a ""
   "/Users/igor/Library/texlive/2022/texmf-var/fonts/tfm/lh/lh-t2a/larm0600.tfm" 1666817167 3248 7c0b9d76a2cd84ed06764a4c6eea5de4 ""
@@ -176,8 +176,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1666816530 2826444 fed3a2366321e3f904ef8fc7feec8f12 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "main.aux" 1668588115 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.tex" 1668588114 1878 1b69a0f52367be42b63fd5ea1d7af361 ""
+  "main.aux" 1670759759 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1670759752 2895 053e43b1cccf7b7d0422d82399429ea0 ""
   (generated)
   "main.aux"
   "main.log"
